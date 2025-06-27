@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 
 namespace Emojis;
-
+ 
 public static class Assets
 {
     public static AssetBundle Bundle { get; set; } = AssetBundleManager.Load("emojibundle");
