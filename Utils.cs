@@ -28,6 +28,12 @@ namespace Emojis
 
             if (final.Contains($":sob:")) final = final.Replace($":sob:", $"<sprite name=sob>");
             
+            if (final.Contains($":skull:")) final = final.Replace($":skull:", $"<sprite name=skull>");
+            
+            if (final.Contains($":gun:")) final = final.Replace($":gun:", $"<sprite name=gun>");
+
+            if (final.Contains(":raised_eyebrow:")) final = final.Replace(":raised_eyebrow:",  $"<sprite name=raised_eyebrow>");
+            
             return final;
         }
     }

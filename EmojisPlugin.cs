@@ -9,7 +9,7 @@ using Reactor.Utilities;
 
 namespace Emojis;
 
-[BepInAutoPlugin("Emojis", "Emojis In The Chat", "v1.0.0")]
+[BepInAutoPlugin("MissingPixel.EmojisMod", "Emojis In The Chat", "v1.1.0")]
 [BepInProcess("Among Us.exe")]
 [BepInDependency(ReactorPlugin.Id)]
 [ReactorModFlags(ModFlags.None)]
